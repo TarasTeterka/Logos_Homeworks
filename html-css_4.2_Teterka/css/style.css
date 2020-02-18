@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+height: 120px;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center; 
+padding-top: 30px;
+}
+
+.headerImage{
+height: 30px;
+width: 157px;
+position: absolute;
+
+}
+
+.mainFirstPart{
+    display: flex;
+    position: relative;
+}
+
+.mainFirstPartOne{
+    height: 570px;
+    width: 50%;
+    background: url(../Images/philip-martin.jpg);
+    background-size: cover;
+    
+}
+
+.mainFirstPartTwo{
+    height: 570px;
+    width: 50%;
+    background-color: black;
+    background-size: cover;
+}
+
+.mainFirstPartTwo_text{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 15% 15% 15% 15%;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.mainFirstPartTwo_text_firstSpan{
+    font-size: 14px;
+     letter-spacing: 7px; 
+}
+
+.mainFirstPartTwo_text_secondSpan{
+font-size: 16px;
+text-decoration-line: underline;
+}
+
+
+.mainFirstPartTwo_text_h2{
+text-transform: uppercase;
+}
+
+.mainFirstPartTwo_text_button{
+    width: 198px;
+    height: 55px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 12px;
+   
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.mainSecondPart{
+    display: flex;
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+    margin: 30px 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.textHeader{
+    margin: 59px 10% 0 10%;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+
+.mainSecondPart_first{
+    height: 368px;
+    width: 49%;
+    background: url(../Images/man.jpg);
+    background-size: cover;
+}
+
+.mainSecondPart_second{
+    height: 368px;
+    width: 49%;
+    background: url(../Images/biocarbon.jpg);
+    
+}
+
+.mainSecondPartFirst_Text{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 180px;
+     padding-right: 10px;
+     margin-top: 29px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainSecondPartSecond_Text{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 180px;
+     padding-left: 10px;
+     margin-top: 29px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainSecondPart_text_firstSpan{
+
+text-align: left;
+font-size: 12px;
+letter-spacing: 6px;
+font-weight: bold;
+}
+
+.mainSecondPart_text_secondSpan{
+text-align: right;
+font-size: 12px;
+text-align: right;
+text-decoration-line: underline;
+text-transform: uppercase;
+font-weight: bold;
+}
+.mainSecondPartTwo_text_paragraph{
+    font-size: 18px;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+.mainThirdPart{
+    display: flex;
+    width: 80%;
+    height: 240px;
+    justify-content: space-between;
+    margin: 20px 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.mainThirdPart_photo1{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-1.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo2{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-2.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo3{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-3.jpg);
+    background-size: 100% 100%;
+}
+.mainThirdPart_text{
+    display: flex;
+    width: 80%;
+    height: 60px;
+    justify-content: space-between;
+    margin: 18px 10% 0 10%;
+}
+
+
+.mainThirdPartFirst_Text{
+    display: flex;
+    width: 32%;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainThirdPartTwo_text_h2{
+padding-top: 22px;
+}
+
+.blockForButton{
+    display: flex; 
+    position: relative;
+     justify-content: center; 
+     width: 80%;
+     height: 42px;
+     margin: 63px 10% 33px 10%;
+}
+
+.button_SeeAll{
+    padding-top: 10px;
+    font-size: 14px;
+    width: 238px;
+    height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+   color: white;
+    background-color: #303030;
+    
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.mainFourthPart{
+    display: flex;
+    width: 80%;
+    height: 360px;
+    justify-content: space-between;
+    margin: 0 10% 63px 10%;
+    flex-wrap: wrap;
+}
+
+.mainFourthPartOne{
+    height: 100%;
+    width: 50%;
+    background: url(../Images/photo1.jpg);
+    background-size: cover;
+    
+}
+
+.mainFourthPartTwo{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    background-size: cover;
+}
+
+.mainFourthPartTwo_text{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20% 15% 20% 15%;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.mainFourthPartTwo_text_h2{
+    text-transform: uppercase;
+    }
+    
+.mainFourthPartTwo_text_button{
+    width: 198px;
+    height: 42px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    }
+
+/* ///////////////////////////////////////////////////////////// */
+
+.mainThirdPart_photo5{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-5.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo6{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-6.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo7{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-7.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+/* //////////////////////////////////// */
+.mainThirdPart_photo8{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-8.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo9{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-9.jpg);
+    background-size: 100% 100%;
+}
+
+.mainThirdPart_photo10{
+    height: 100%;
+    width: 32%;
+    background: url(../Images/img-10.jpg);
+    background-size: 100% 100%;
+}
+
+
+footer{
+display: flex;
+position: relative;
+width: 100%;
+height: 163px;
+margin-top: 100px;
+background-color: black;
+justify-content: center;
+color: white;
+}
+
+.footerImage{
+    position: absolute;
+    width: 142px;
+    height: 27px;
+    color: white;
+    margin-top: 55px ;
+}
+
+.footerText{
+position: absolute;
+margin-top: 130px ;
+font-size: 12px;
+
+}
+
+.textMainsHeader{
+    margin: 0px 10% 28px 10%;
+font-size: 18px;
+text-transform: uppercase;
+}
