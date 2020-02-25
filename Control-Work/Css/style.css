@@ -20,7 +20,7 @@ section {
 }
 .header {
 	display: flex;
-	width: 100%;
+	min-width: 100%;
 	min-height: 300px;
 	border: 1px solid rgba(104, 98, 98, 0.541);
 	background-color: rgba(172, 145, 236, 0.233);
@@ -86,7 +86,7 @@ section {
 }
 
 .paragraphs {
-	padding: 20px 0 10px 30px;
+	padding: 20px 20px 10px 30px;
 }
 .panel {
 	width: 100%;
