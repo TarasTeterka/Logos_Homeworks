@@ -1,0 +1,10 @@
+#block{
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: blueviolet;
+    background-size: cover;
+    border: 3px groove  orange;
+    text-align: center;
+   
+}

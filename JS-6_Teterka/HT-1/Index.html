@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<h1  id="head">My page</h1>
+	<p id="paragraph">мої улюблені сайти:
+		<a id="a1" href="http://"></a> 
+		<a id="a2" href="http://"></a> 
+		<a id="a3" href="http://"></a>
+	</p>
+	<div id="div">
+		За допомогою JavaScript запропонувати користувачу вибрати стиль для сторінки. А саме:
+		<ul class="markUl">
+			<li class="classLi">фон для сторінки</li>
+			<form action="" name="f1">
+				<input type="radio" name="tr" value="white"checked> white
+				<input type="radio" name="tr" value="red"> red
+				<input type="radio" name="tr" value="lightblue"> lightblue
+				<input type="radio" name="tr" value="green"> green
+				<input type="radio" name="tr" value="orange"> orange
+			</form>
+			<li class="classLi">тип шрифта на сторінці</li>
+			<form name="f2">
+				<select name="fontFamily">
+					<option value="" selected>Виберіть тип шрита</option>
+					<option value="Cursive">Cursive</option>
+					<option value="Fantasy">Fantasy</option>
+					<option value="Monospace">Monospace</option>
+					<option value="Sens-serif">Sens-serif</option>
+				</select>
+			</form>
+			<li class="classLi">вирівнювання для заголовка h1</li>
+			<form action="" name="f3">
+				<input type="radio" name="tt" value="left" checked> Left
+				<input type="radio" name="tt" value="center"> center
+				<input type="radio" name="tt" value="right">right
+			</form>
+			<li class="classLi">фон для параграфа зі зсилками</li>
+			<form action="" name="f4">
+				<input type="radio" name="tс" value="white" checked> white
+				<input type="radio" name="tс" value="red"> red
+				<input type="radio" name="tс" value="yellow">yellow
+				<input type="radio" name="tс" value="blue">blue
+			</form>
+			<li class="classLi">колір тексту у параграфі зі зсилками і для самих зсилок. При чому колір тексту для зсилок призначити у циклі</li>
+			<form action="" name="f5">
+				<input type="radio" name="td" value="black" checked> black
+				<input type="radio" name="td" value="red"> red
+				<input type="radio" name="td" value="yellow">yellow
+				<input type="radio" name="td" value="blue">blue
+				<input type="radio" name="td" value="white">white
+			</form>
+			<form action="" name="f6">
+				<input type="radio" name="ts" value="black" checked> black
+				<input type="radio" name="ts" value="red"> red
+				<input type="radio" name="ts" value="yellow">yellow
+				<input type="radio" name="ts" value="blue">blue
+				<input type="radio" name="ts" value="white">white
+			</form>
+			<li class="classLi">колір, розмір, товщину тексту у елементі div</li>
+			<form action="" name="f7">
+				<input type="radio" name="tz" value="black" checked> black
+				<input type="radio" name="tz" value="red"> red
+				<input type="radio" name="tz" value="yellow">yellow
+				<input type="radio" name="tz" value="blue">blue
+				<input type="radio" name="tz" value="white">white
+			</form>
+			<form action="" name="f8">
+				<input type="radio" name="tp" value="14"> 14px
+				<input type="radio" name="tp" value="16"> 16px
+				<input type="radio" name="tp" value="18"> 18px
+				<input type="radio" name="tp" value="20"> 20px
+				<input type="radio" name="tp" value="22"> 22px
+			</form>
+			<form action="" name="f9">
+				<input type="radio" name="tw" value="normal" checked> normal
+				<input type="radio" name="tw" value="bold">bold
+			</form>
+			
+			<li class="classLi">тип маркера для маркованого списку на сторінці</li>
+			<form action="" name="f10">
+				<input type="radio" name="tl" value="initial" checked>initial
+				<input type="radio" name="tl" value="circle"> circle
+				<input type="radio" name="tl" value="hebrew">hebrew
+				<input type="radio" name="tl" value="none">none
+				<input type="radio" name="tl" value="armenian">armenian
+			</form>
+			
+		</ul>
+		Таким чином слід запропонувати користувачу ввести десять налаштувань сторінки і застосувати їх.<br/>
+		ДОДАТОК ДО ЗАВДАННЯ: замість зсилок на конкретні сайти, вивести у панелі навігації зсилки на три сайти, які вкаже користувач. <br/>
+		Наприклад користувач у віконце prompt() ввів адресу football24.ua - в такому разі треба створити зсилку, яка вела б на сайт football24, а текстом цієї зсилки (тим, по чому можна клікнути) буде також football24.ua
+	</div>
+</body>
+<script src="main.js"></script>
+</html>
