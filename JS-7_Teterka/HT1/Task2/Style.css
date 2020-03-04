@@ -1,0 +1,144 @@
+#color {
+	cursor: pointer;
+}
+
+#image {
+	cursor: pointer;
+}
+
+#close {
+	cursor: pointer;
+}
+
+.menu {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+body {
+	background-size: 100%;
+}
+
+.blockColorsBackground {
+	width: 100px;
+	height: 100px;
+	background-size: 100%;
+	border: 1px solid black;
+	cursor: pointer;
+	display: flex;
+}
+
+.blockColorsBackground:nth-child(1) {
+	background-color: rgb(204, 31, 31);
+}
+
+.blockColorsBackground:nth-child(2) {
+	background-color: rgb(54, 54, 209);
+}
+
+.blockColorsBackground:nth-child(3) {
+	background-color: rgb(13, 153, 13);
+}
+
+.blockColorsBackground:nth-child(4) {
+	background-color: olive;
+}
+
+.blockColorsBackground:nth-child(5) {
+	background-color: rgb(241, 212, 43);
+}
+
+.blockColorsBackground:nth-child(6) {
+	background-color: palevioletred;
+}
+
+.blockColorsBackground:nth-child(7) {
+	background-color: white;
+}
+
+.blockColorsBackground:nth-child(8) {
+	background-color: rgb(175, 22, 175);
+}
+
+.blockColorsBackground:nth-child(9) {
+	background-color: rgb(29, 123, 151);
+}
+
+.rgbColorsBackground {
+	width: 309px;
+	height: 306px;
+	background-size: 100%;
+	position: absolute;
+	display: none;
+	/* margin-left: 400px; */
+	flex-wrap: wrap;
+	background-size: 100%;
+	margin-left: 35%;
+	margin-top: 100px;
+}
+
+.imgColors {
+	width: 309px;
+	height: 306px;
+	background-size: 100%;
+	position: absolute;
+	display: none;
+	flex-wrap: wrap;
+	cursor: pointer;
+	margin-left: 35%;
+	margin-top: 100px;
+}
+
+.blockColors {
+	width: 100px;
+	height: 100px;
+	background-size: 100px;
+	border: 1px solid black;
+}
+
+.blockColors:nth-child(1) {
+	background: url(./image/img1.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(2) {
+	background: url(./image/img2.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(3) {
+	background: url(./image/img3.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(4) {
+	background: url(./image/img4.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(5) {
+	background: url(./image/img5.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(6) {
+	background: url(./image/img6.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(7) {
+	background: url(./image/img7.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(8) {
+	background: url(./image/img8.jpeg);
+	background-size: 100px;
+}
+
+.blockColors:nth-child(9) {
+	background: url(./image/img9.jpeg);
+	background-size: 100px;
+}
