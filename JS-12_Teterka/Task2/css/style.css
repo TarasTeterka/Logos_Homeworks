@@ -1,0 +1,26 @@
+.progressBar {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 100;
+ 
+}
+.progress-percentage {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 40px;
+ font-weight: bold;
+ color: #ffffff;
+}
+#preloader {
+ position: fixed;
+ left: 0;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ background: rgb(235, 78, 78);
+}
+

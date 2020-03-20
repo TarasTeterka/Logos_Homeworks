@@ -1,0 +1,30 @@
+.notebook {
+	width: 500px;
+	height: 350px;
+	background-image: url(../macbook.png);
+	background-size: 100% 100%;
+	margin: 50px auto;
+	padding-top: 17px;
+	position: relative;
+}
+
+.colorBlock {
+	width: 385px;
+	height: 290px;
+	background-color: green;
+	background-size: cover;
+	margin: auto;
+	position: absolute;
+	left: 58px;
+	bottom: 60px;
+	z-index: 0;
+}
+
+#time {
+	text-align: center;
+	font-size: 48px;
+	margin: 100px auto;
+	margin-left: 150px;
+	position: absolute;
+	z-index: 1;
+}
