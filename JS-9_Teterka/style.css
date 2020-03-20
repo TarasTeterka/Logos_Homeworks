@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(3, 0, 24);
+    display: flex;
+    flex-direction: column;
+    color: rgba(16, 109, 185, 0.904);
+    font-family: 'a_LCDNova', arial;
+
+}
+button{
+    margin: 3px;
+    color: rgba(16, 109, 185, 0.904);
+    border-radius: 5px 5px;
+    box-shadow: 1px 0 5px 0 #ffffff48;;
+    cursor: pointer;
+    height: 30px;
+    width: 75px;
+    background-color: rgba(127, 255, 212, 0);
+    border: 1px solid #ffffff48;
+
+}
+
+#add{
+    width: 35px;
+    margin-top: 15px;
+}
+
+#min{
+    width: 35px;
+}
+.mainBlock{
+    border: 1px solid #ffffff48;
+    width: 100%;
+}
+
+
+.clock{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+   
+}
+.date{
+    font-size: 30px;
+}
+
+.hours{
+    font-size: 70px;
+    margin-top: -10px;
+}
+
+
+
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    min-height: 190px;
+    border: 1px solid #ffffff48;
+}
+
+.result {
+    border: 1px solid #ffffff48;
+    text-align: center;
+    width: 25%;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    background-color: rgba(2, 0, 17, 0.562);
+    box-shadow: 0 0 7px 0 #ffffff48;;
+}
+
+.watch {
+    margin: 10% auto;
+    font-size: 45px;
+    text-align: center;
+}
+
+.number {
+    font-size: 68px;
+    text-align: center;
+    
+}
+
+.text-minutes{
+    font-size: 20px;
+}
+
+.option {
+    margin-top: 12px;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.timerTime {
+    text-align: center;
+    font-size: 70px;
+    margin: 25px;
+}
