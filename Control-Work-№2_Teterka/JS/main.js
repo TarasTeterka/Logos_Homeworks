@@ -124,6 +124,8 @@ function checkFormAuthorization() {
 		document.querySelector('#checkValue').innerHTML = '';
 		document.querySelector('#exampleModal').style.display = 'none';
 		document.querySelector('.modal-backdrop').style.display = 'none';
+		document.querySelector('.modal-open').style.overflow = 'auto';
+		document.querySelector('.modal-open').style.paddingRight = '0px';
 		document.querySelector('#codeButton').disabled = false;
 		document.querySelector('#closedForm').style.display = 'none';
 		document.querySelector('#openForm').style.display = 'block';
