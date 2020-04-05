@@ -1,0 +1,810 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Montserrat", Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100vh;
+}
+
+/* HEADER */
+header {
+	width: 100%;
+	height: 700px;
+	background-image: url(../Images/headerBackground.png);
+	background-size: cover;
+}
+
+.headerTopText {
+	margin: 0 auto;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+
+.spanDreamshare {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.spanLogin {
+	font-size: 14px;
+	color: #ffffff;
+	margin-right: 19px;
+	cursor: pointer;
+}
+
+.spanLogin:hover {
+	color: #d3d2d2;
+}
+
+.spanSignUp {
+	border: 2px solid #ffffff;
+	border-radius: 40px;
+	padding: 10px 17px 9px 18px;
+	font-size: 14px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.spanSignUp:hover {
+	color: #d3d2d2;
+	border: 2px solid #d3d2d2;
+}
+
+.headerBlockForMainText {
+	margin: 153px auto;
+	width: 40%;
+	height: auto;
+	text-align: center;
+}
+
+.headerTextShare {
+	font-size: 52px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.headerTextP {
+	font-family: "Roboto";
+	font-size: 24px;
+	color: #f7f3f2;
+	margin-top: 28px;
+}
+
+.headerButton {
+	width: 225px;
+	height: 40px;
+	background: #ff4e50;
+	border-radius: 40px;
+	margin: 33px auto;
+	cursor: pointer;
+}
+
+.headerButton p {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+.headerButton p:hover {
+	color: #444444;
+}
+
+/* MAIN */
+
+main {
+	width: 62%;
+	margin: 95px auto;
+}
+
+.firstMainPartWithPhotos {
+	width: 100%;
+	height: 461px;
+}
+
+.textOverThePhotos {
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.blockForThreePhotos {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 35px auto;
+}
+
+.step {
+	width: 32%;
+	height: 400px;
+	display: flex;
+	border-radius: 5px;
+	justify-content: flex-end;
+	flex-direction: column;
+	background-size: 100% 100%;
+	color: #ffffff;
+}
+
+.step:nth-child(1) {
+	background: url(../Images/mainPhoto1.png) no-repeat;
+	margin-right: 20px;
+}
+
+.step:nth-child(2) {
+	background: url(../Images/mainPhoto2.png) no-repeat;
+}
+
+.step:nth-child(3) {
+	background: url(../Images/mainPhoto3.png) no-repeat;
+	margin-left: 20px;
+}
+
+.buttonStep {
+	margin: 0 25px 20px 25px;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	width: 70px;
+	height: 20px;
+	background: #ff4e50;
+	border-radius: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.headerButton p:hover {
+	color: #444444;
+}
+
+.buttonStep p {
+	margin-top: 5px;
+}
+
+.buttonStep p:hover {
+	color: #444444;
+}
+
+.stepTitle {
+	font-weight: bold;
+	margin: 0 25px 25px 25px;
+}
+
+.stepBottomText {
+	margin: 0 25px 21px 25px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 300;
+	color: #e3e3e3;
+}
+
+/* Information about people */
+
+.infoAboutPeople {
+	width: 100%;
+	margin-top: 95px;
+	text-align: center;
+}
+
+.titleAboutPeople {
+	font-weight: bold;
+	font-size: 26px;
+	color: #444444;
+	margin-bottom: 35px;
+}
+
+.blockAboutPeople {
+	width: 100%;
+	height: 221px;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.namesPeople {
+	margin-top: 17px;
+}
+
+.people {
+	display: flex;
+	flex-direction: column;
+	max-width: 205px;
+}
+
+.people img {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.namesPeople {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.peopleInfo {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14px;
+	color: #666666;
+}
+
+.buttonForPeople {
+	font-weight: bold;
+	font-size: 14px;
+	color: #ff4e50;
+	width: 180px;
+	height: 40px;
+	background: #ffffff;
+	border: 2px solid #ff4e50;
+	box-sizing: border-box;
+	border-radius: 40px;
+	margin: 45px auto;
+	cursor: pointer;
+	text-align: center;
+}
+
+.buttonForPeople:hover {
+	color: #444444;
+	background-color: rgb(207, 207, 207);
+	/* color: #f73135; */
+}
+
+.buttonForPeople p {
+	margin-top: 9px;
+}
+
+/* Photo Gallery */
+.photoGallery {
+	width: 100%;
+}
+
+.titleGallery {
+	font-weight: bold;
+	font-size: 26px;
+	text-align: center;
+	color: #444444;
+	margin-top: 90px;
+	margin-bottom: 35px;
+}
+
+.photos {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.topDivWithPhotos {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.topPhoto {
+	height: 310px;
+	width: 300px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.623);
+	border-radius: 4px;
+	background-size: 100% 100%;
+}
+
+.topPhoto:nth-child(1) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo1.png);
+	margin-right: 20px;
+}
+
+.topPhoto:nth-child(2) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo2.png);
+	margin-right: 20px;
+}
+
+.topPhoto:nth-child(3) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo3.png);
+}
+
+.middleDivWithPhotos {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.middlePhoto {
+	height: 310px;
+	background-size: 100% 100%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.623);
+	border-radius: 4px;
+}
+
+.middlePhoto:nth-child(1) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo4.png);
+	width: 32%;
+	margin-right: 20px;
+}
+
+.middlePhoto:nth-child(2) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo5.png);
+	width: 66%;
+}
+
+.bottomDivWithPhotos {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.bottomPhoto {
+	background-size: 100% 100%;
+	height: 310px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.623);
+	border-radius: 4px;
+}
+
+.bottomPhoto:nth-child(1) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo6.png);
+
+	width: 66%;
+	margin-right: 20px;
+}
+
+.bottomPhoto:nth-child(2) {
+	background-image: linear-gradient(to bottom, rgba(51, 50, 50, 0.479), rgba(49, 44, 46, 0.342)),
+		url(../Images/Photo7.png);
+	width: 32%;
+}
+
+.photoDescription {
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #ffffff;
+	margin-top: 120px;
+}
+
+/* Interests input */
+
+.interestsImput {
+	width: 50%;
+	height: 158px;
+	margin: 95px auto;
+	text-align: center;
+}
+
+.interestsTitle {
+	font-weight: bold;
+	font-size: 26px;
+	color: #444444;
+	margin-bottom: 43px;
+}
+
+.interestsText {
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	color: #666666;
+}
+
+.blockForInputInterests {
+	margin-top: 25px;
+	display: flex;
+}
+
+.input {
+	width: 299px;
+	height: 40px;
+	border: 1px solid #d4d4d4;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+	border-radius: 3px;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #999999;
+	margin-right: 10px;
+	padding-left: 15px;
+}
+
+.interestsButton {
+	width: 172px;
+	height: 40px;
+	background: #ff4e50;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.interestsButton p {
+	font-weight: bold;
+	font-size: 14px;
+	color: #ffffff;
+	margin-top: 10px;
+	width: 170px;
+}
+
+.interestsButton p:hover {
+	color: #444444;
+}
+
+/* Footer */
+
+footer {
+	width: 62%;
+	display: flex;
+	justify-content: space-between;
+	margin: 36px auto 36px;
+}
+
+.separateLine {
+	margin-top: 100px;
+	width: 100%;
+	height: 2px;
+	background: #ff4e50;
+	border: 0px;
+}
+
+.logo {
+	color: #ff4e50;
+}
+
+.InfoAboutCompany {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.footerInfo {
+	margin-bottom: 15px;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #999999;
+}
+
+.footerMainSpanInfo {
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #444444;
+	cursor: pointer;
+}
+
+.detailsAboutCompany {
+	display: flex;
+	flex-direction: column;
+}
+
+.designersLogo {
+	display: flex;
+	text-align: end;
+	flex-direction: column;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: #cccccc;
+}
+
+.designersLogo img {
+	width: 110px;
+	height: 24px;
+	margin-top: 7px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 100%;
+		height: 100vh;
+	}
+
+	header {
+		min-width: 100%;
+		height: 700px;
+		margin-bottom: 95px;
+	}
+
+	.headerBlockForMainText {
+		width: 70%;
+	}
+
+	main {
+		width: 98%;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+
+	.blockForThreePhotos {
+		width: 98%;
+	}
+
+	.firstMainPartWithPhotos {
+		width: 100%;
+	}
+
+	.textOverThePhotos {
+		text-align: center;
+	}
+
+	.step {
+		width: 32%;
+	}
+
+	.infoAboutPeople {
+		width: 68%;
+		height: 605px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 95px auto 40px;
+	}
+
+	.blockAboutPeople {
+		height: 500px;
+		flex-wrap: wrap;
+	}
+
+	.people {
+		height: 205px;
+	}
+
+	.buttonForPeople {
+		margin-bottom: 95px;
+	}
+
+	footer {
+		width: 94%;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	header {
+		width: 100%;
+		height: 540px;
+		margin-bottom: 35px;
+	}
+
+	.headerTopText {
+		flex-direction: column;
+		height: 150px;
+		padding-top: 20px;
+		justify-content: space-between;
+		display: flex;
+	}
+
+	.spanDreamshare {
+		order: 2;
+		text-align: center;
+	}
+
+	.spanForAuthorization {
+		order: 1;
+		margin: 20px auto;
+	}
+
+	.headerBlockForMainText {
+		margin-top: 25px;
+		width: 80%;
+	}
+
+	.headerTextShare {
+		font-size: 29px;
+	}
+
+	.headerTextP {
+		font-size: 18px;
+	}
+
+	.blockForThreePhotos {
+		flex-direction: column;
+		height: 740px;
+		margin-top: 15px;
+	}
+
+	.firstMainPartWithPhotos {
+		height: 780px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.step {
+		width: 100%;
+		height: 240px;
+
+		margin: 0 auto 10px;
+	}
+
+	.step:nth-child(1) {
+		background-size: 100% 100%;
+	}
+
+	.step:nth-child(2) {
+		background-size: 100% 100%;
+	}
+
+	.step:nth-child(3) {
+		margin-left: 0px;
+		background-size: 100% 100%;
+	}
+
+	.blockAboutPeople {
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+
+	.infoAboutPeople {
+		height: 100%;
+		justify-content: space-around;
+		margin-top: 36px;
+	}
+
+	.people {
+		margin-bottom: 20px;
+		width: 70%;
+		margin: 0 auto;
+		height: 100%;
+	}
+
+	.titleAboutPeople {
+		margin-bottom: 15px;
+		width: 100%;
+		font-size: 22px;
+	}
+
+	.peopleInfo {
+		margin-bottom: 15px;
+	}
+
+	.buttonForPeople {
+		margin: 0 auto 35px;
+	}
+
+	.titleGallery {
+		margin: 35px 0 35px 0;
+	}
+
+	.photoDescription {
+		margin-top: 40px;
+	}
+
+	.topDivWithPhotos {
+		flex-direction: column;
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	.topPhoto {
+		margin-bottom: 10px;
+		height: 120px;
+		width: 100%;
+	}
+
+	.middleDivWithPhotos {
+		flex-direction: column;
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	.middlePhoto:nth-child(1) {
+		width: 100%;
+		margin-bottom: 10px;
+		height: 120px;
+	}
+
+	.middlePhoto:nth-child(2) {
+		width: 100%;
+		margin-bottom: 10px;
+		height: 120px;
+	}
+
+	.bottomDivWithPhotos {
+		flex-direction: column;
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	.bottomPhoto:nth-child(1) {
+		width: 100%;
+		margin-bottom: 10px;
+		height: 120px;
+	}
+
+	.bottomPhoto:nth-child(2) {
+		width: 100%;
+		margin-bottom: 10px;
+		height: 120px;
+	}
+
+	.interestsImput {
+		width: 98%;
+		height: auto;
+		margin: 35px auto;
+	}
+
+	.interestsTitle {
+		margin-bottom: 10px;
+	}
+
+	.blockForInputInterests {
+		flex-direction: column;
+		width: 98%;
+		margin: 9px auto;
+	}
+
+	.interestsText {
+		margin-bottom: 15px;
+	}
+
+	.input {
+		width: 100%;
+	}
+
+	.interestsButton {
+		margin: 10px auto;
+	}
+
+	.separateLine {
+		margin-top: 40px;
+	}
+
+	footer {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.logo {
+		margin-bottom: 15px;
+	}
+
+	.InfoAboutCompany {
+		flex-direction: column;
+	}
+
+	.interestsTitle {
+		margin-bottom: 15px;
+	}
+
+	.interestsButton {
+		margin-top: 10px;
+	}
+
+	.detailsAboutCompany {
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.designersLogo {
+		flex-direction: column;
+		text-align: center;
+		margin: 15px auto;
+	}
+}
